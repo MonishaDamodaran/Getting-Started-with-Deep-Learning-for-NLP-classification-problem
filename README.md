@@ -3,6 +3,14 @@ This repository is the documentation of my learnings in Deep Learning and consis
 
 To apply the concepts learnt, I have used [Natural Language Processing with Disaster Tweet dataset](https://www.kaggle.com/c/nlp-getting-started) from Kaggle. Although the Machine Learning Algo's like Naive Bayes, Logistic Regression, XGBoost, LightGBM works good on this problem, it will be a good starting point to explore deep learning techniques using this dataset 
 
+##Models Implemented:
+
+* Simple Feed Forward Neural Network using Pre Trained Embeddings - using torch text
+* RNN - BiDirectional
+* LSTM - BiDirectional
+* Bidirectional LSTM with average and max pooling
+* Bidirectional LSTM with attention mechanism - the attached code file has this implementation 
+
 ## Resources:
 
 * [Deep Learning Part 1 - Mithesh Khapra](https://onlinecourses.nptel.ac.in/noc19_cs85/preview) 
@@ -13,6 +21,7 @@ To apply the concepts learnt, I have used [Natural Language Processing with Disa
 * [What is time sequence in LSTM](https://machinelearningmastery.com/faq/single-faq/what-is-the-difference-between-samples-timesteps-and-features-for-lstm-input/) - Had a hard time to understand this while implementing it on a problem. If you are struck in understanding timesteps like I was, please check out this discussion from Machine Learning Mastery 
 * [RNN implementation tutorial in pytorch](https://www.cs.toronto.edu/~lczhang/360/lec/w06/rnn.html)
 * [RNN - sequence bucketing](https://www.kaggle.com/code/bminixhofer/speed-up-your-rnn-with-sequence-bucketing/notebook)
+* [Rahul Agarwal's blog - ML whiz](https://mlwhiz.com/blog/2019/03/09/deeplearning_architectures_text_classification/)
 
 ### Kaggle Notebooks:
 
