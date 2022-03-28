@@ -3,7 +3,7 @@ This repository is the documentation of my learnings in Deep Learning and consis
 
 To apply the concepts learnt, I have used [Natural Language Processing with Disaster Tweet dataset](https://www.kaggle.com/c/nlp-getting-started) from Kaggle. Although the Machine Learning Algo's like Naive Bayes, Logistic Regression, XGBoost, LightGBM works good on this problem, it will be a good starting point to explore deep learning techniques using this dataset 
 
-##Models Implemented:
+## Models Implemented:
 
 * Simple Feed Forward Neural Network using Pre Trained Embeddings - using torch text
 * RNN - BiDirectional
